@@ -28,6 +28,6 @@ Execute this command to train the model using the defined hyper-parameters.
 
 Use this command to evaluate the trained model.
 
-# Hyperparameters
+# Hyper-parameters
 
-You can define hyperparameters in training_script.py.
+You can define hyper-parameters in training_script.py.
