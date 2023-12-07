@@ -10,24 +10,24 @@ PyTorch implementation for experiments in the paper: Intent Detection and Slot F
 
 # Usage
 
-    # Data Parsing:
+# Data Parsing:
 
     python data_parsing.py
 
-    Run this command to parse and read the dataset.
+Run this command to parse and read the dataset.
     
-    # Training:
+# Training:
 
     python training_script.py
 
-    Execute this command to train the model using the defined hyper-parameters.
+Execute this command to train the model using the defined hyper-parameters.
     
-    # Evaluation:
+# Evaluation:
 
     python using_script.py
 
-    Use this command to evaluate the trained model.
+Use this command to evaluate the trained model.
 
 # Hyperparameters
 
-    You can define hyperparameters in training_script.py.
+You can define hyperparameters in training_script.py.
