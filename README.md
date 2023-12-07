@@ -1,0 +1,1 @@
+# Intent-Detection-and-Slot-Filling-for-Persian-Crosslingual-Training-for-Low-resource-Languages
