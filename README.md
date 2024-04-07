@@ -24,14 +24,14 @@ We manually translated and annotated 500 random utterances (approximately 10% of
 
 Experimental results with all the scenarios, using mBERT pre-trained language model as the encoder on ATIS and MASSIVE test datasets are summarized below:
 
-Strategy <td colspan=3>ATIS                               <td colspan=3>MASSIVE 
-| :---:   |     :---:      |    :---:      |    :---:      |    :---:      |    :---:      |    :---:      
-|         |F1              |Accuracy       |Exact Match    | F1            |Accuracy       |Exact Match    
-|EN       |50.96           |86.48          |17.25          |79.68          |87.35          |69.43          
-|PR       |63.54           |76.29          |28.89          |53.15          |32.14          |16.57          
-|PR→EN    |73.59           |90.64          |47.19          |79.88          |87.79          |69.87          
-|EN→PR    |74.58           |90.22          |48.44          |79.01          |86.68          |68.72          
-|EN+PR    |75.59           |90.22          |50.1           |79.61          |87.62          |69.36          
+|Strategy <td colspan=3>ATIS                               <td colspan=3>MASSIVE 
+| :---:   |     :---:      |    :---:      |    :---:      |    :---:      |    :---:      |    :---:      | 
+|         |F1              |Accuracy       |Exact Match    | F1            |Accuracy       |Exact Match    |
+|EN       |50.96           |86.48          |17.25          |79.68          |87.35          |69.43          |
+|PR       |63.54           |76.29          |28.89          |53.15          |32.14          |16.57          |
+|PR→EN    |73.59           |90.64          |47.19          |79.88          |87.79          |69.87          |
+|EN→PR    |74.58           |90.22          |48.44          |79.01          |86.68          |68.72          |
+|EN+PR    |75.59           |90.22          |50.1           |79.61          |87.62          |69.36          |
 
 Experimental results with all the scenarios, using XLM-RoBERTa pre-trained language are presented below:
 
