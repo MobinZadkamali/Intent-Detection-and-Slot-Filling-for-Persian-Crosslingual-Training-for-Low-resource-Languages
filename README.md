@@ -61,7 +61,7 @@ To compare the performance of our 10% Persian dataset with larger datasets, we u
 
 ## Conclusion
 
-Our experiments demonstrate the effectiveness of cross-lingual training with pre-trained language models in improving natural language understanding tasks for low-resource languages. "Future research could explore additional techniques to enhance performance in such scenarios.
+Our experiments demonstrate the effectiveness of cross-lingual training with pre-trained language models in improving natural language understanding tasks for low-resource languages. Future research could explore additional techniques to enhance performance in such scenarios.
 
 **Note:** For access to the dataset and detailed experimental results, please refer to the respective files in this repository.
 
