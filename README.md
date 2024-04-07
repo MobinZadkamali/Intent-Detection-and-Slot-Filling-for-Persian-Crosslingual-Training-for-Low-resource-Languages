@@ -24,6 +24,15 @@ We manually translated and annotated 500 random utterances (approximately 10% of
 
 Experimental results with all the scenarios, using mBERT pre-trained language model as the encoder on ATIS and MASSIVE test datasets are summarized below:
 
+|Strategy |ATIS                                          |||                                      MASSIVE|||
+| :---:   |     :---:      |    :---:      |    :---:      |    :---:      |    :---:      |    :---:      |   
+|         |F1              |Accuracy       |Exact Match    | F1            |Accuracy       |Exact Match    |
+|EN       |50.96           |86.48          |17.25          |79.68          |87.35          |69.43          |
+|PR       |63.54           |76.29          |28.89          |53.15          |32.14          |16.57          |
+|PR!EN    |73.59           |90.64          |47.19          |79.88          |87.79          |69.87          |
+|EN!PR    |74.58           |90.22          |48.44          |79.01          |86.68          |68.72          |
+|EN+PR    |75.59           |90.22          |50.1           |79.61          |87.62          |69.36          |
+
 Experimental results with all the scenarios, using XLM-RoBERTa pre-trained language are presented below:
 
 In the ATIS dataset, the highest value of F1 was obtained in the EN!PR scenario (75.94), the highest accuracy value was achieved in the PR!EN scenario (90.64), and the highest Exact Match value was obtained in the EN+PR mode (50.1). In the MASSIVE dataset, the highest value of all three metrics was attained in the PR!EN scenario (The obtained values for F1, Accuracy, and Exact Match metrics, respectively, are equal to 79.88, 87.79, and 69.87).
