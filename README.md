@@ -3,7 +3,8 @@ This repository contains the code and resources for the paper titled **"Intent D
 
 ## Abstract
 
-Intent detection and slot filling are essential tasks for natural language understanding. Deep neural models have shown remarkable performance in these tasks but require large amounts of training data, which is often unavailable in low-resource languages. In this study, we leverage pre-trained language models, specifically Multilingual BERT (mBERT) and XLM-RoBERTa, in various cross-lingual and monolingual scenarios. We translate a portion of the ATIS dataset into Persian to evaluate our proposed models and repeat experiments on the MASSIVE dataset to increase our results’ reliability. Results indicate significant improvements in cross-lingual scenarios over monolingual ones.
+> > Intent classification and slot filling are two necessary tasks for natural language understanding. Deep neural models have already shown great ability facing sequence labeling and sentence classification tasks, but
+they require a large amount of training data to achieve accurate results. However, in many low-resource languages creating accurate training data is problematic. Consequently, in most of the language processing tasks low-resource languages have significantly lower accuracy than rich-resource languages, Hence, training models in low-resource languages with data from a richer-resource language can be advantageous. To solve this problem, in this paper, we used pre-trained language models, namely Multilingual BERT (mBERT) and XLM-RoBERTa, in different cross-lingual and monolingual scenarios. To evaluate our proposed model, we translated a small part of the ATIS dataset into Persian. Furthermore, we repeated the experiments on the MASSIVE dataset to increase our results’ reliability. Experimental results on both datasets show that the cross-lingual scenarios significantly outperform monolinguals ones.
 
 ## Persian ATIS Dataset
 
