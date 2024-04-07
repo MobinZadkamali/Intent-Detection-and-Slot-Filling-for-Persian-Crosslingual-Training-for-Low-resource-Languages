@@ -18,7 +18,7 @@ We manually translated and annotated 500 random utterances (approximately 10% of
 
 ## Example Translations
 
-![ATIS_new](https://github.com/MobinZadkamali/Intent-Detection-and-Slot-Filling-for-Persian-Crosslingual-Training-for-Low-resource-Languages/assets/37911344/56adafef-9d0e-4b16-8dcb-7c657eacf8bb =250x250)
+<img src="https://github.com/MobinZadkamali/Intent-Detection-and-Slot-Filling-for-Persian-Crosslingual-Training-for-Low-resource-Languages/assets/37911344/56adafef-9d0e-4b16-8dcb-7c657eacf8bb" width="100" height="100">
 
 ## Experimental Results
 
