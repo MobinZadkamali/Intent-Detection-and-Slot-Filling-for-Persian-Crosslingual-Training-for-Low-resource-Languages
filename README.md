@@ -31,15 +31,32 @@ Experimental results with all the scenarios, using mBERT pre-trained language mo
 |         |F1              |Accuracy       |Exact Match    | F1            |Accuracy       |Exact Match    |
 |EN       |50.96           |86.48          |17.25          |79.68          |87.35          |69.43          |
 |PR       |63.54           |76.29          |28.89          |53.15          |32.14          |16.57          |
-|PR→EN    |73.59           |90.64          |47.19          |79.88          |87.79          |69.87          |
+|PR→EN    |73.59           |**90.64**      |47.19          |**79.88**      |**87.79**      |**69.87**      |
 |EN→PR    |74.58           |90.22          |48.44          |79.01          |86.68          |68.72          |
-|EN+PR    |75.59           |90.22          |50.1           |79.61          |87.62          |69.36          |
+|EN+PR    |**75.59**       |90.22          |**50.1**       |79.61          |87.62          |69.36          |
 
 Experimental results with all the scenarios, using XLM-RoBERTa pre-trained language are presented below:
+
+|Strategy | ATIS                                         ||| MASSIVE                                     |||                 
+| :---:   |     :---:      |    :---:      |    :---:      |    :---:      |    :---:      |    :---:      | 
+|         |F1              |Accuracy       |Exact Match    | F1            |Accuracy       |Exact Match    |
+|EN       |3.18            |46.77          |0.0            |67.26          |**84.76**      |58.8           |
+|PR       |39.78           | 70.27         |8.1            |43.23          |50.2           |25.15          |
+|PR→EN    |16.56           |74.63          |1.24           |63.99          |83.01          |55.64          |
+|EN→PR    |57.77           |**79.0**       |**23.07**      |65.05          |82.64          |56.82          |
+|EN+PR    |**58.56**       |78.17          |21.82          |**68.35**      |83.82          |**59.91**      |
 
 ## Comparison with MASSIVE Dataset
 
 To compare the performance of our 10% Persian dataset with larger datasets, we used all 12,664 Persian samples from the MASSIVE dataset. Results for both mBERT and XLM-RoBERTa models are presented below:
+
+|Strategy |       mBERT                                  |||              XLM-RoBERTa                    |||                 
+| :---:   |     :---:      |    :---:      |    :---:      |    :---:      |    :---:      |    :---:      | 
+|         |F1              |Accuracy       |Exact Match    | F1            |Accuracy       |Exact Match    |
+|PR       |79.31           |87.79          |69.36          |68.91          |85.44          |59.27          |
+|PR→EN    |**80.6**        |**87.79**      |**71.47**      |**71.13**      |**86.17**      |**61.97**      |
+|EN→PR    |80.22           |87.65          |70.0           |71.06          |85.93          |61.43          |
+|EN+PR    |580.12          |87.62          |70.24          |71.06          |85.93          |**61.97**      |
 
 ## Conclusion
 
