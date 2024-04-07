@@ -16,7 +16,7 @@ We manually translated and annotated 500 random utterances (approximately 10% of
 | MASSIVE      | Persian        | 16432         | 11514         | 2033          | 2974          | 108           | 60            |
 |              | English        | 16432         | 11514         | 2033          | 2974          | 108           | 60            |
 
-## Example Translations
+## Example of a Translated ATIS Utterance with Corresponding Labels
 
 <img src="https://github.com/MobinZadkamali/Intent-Detection-and-Slot-Filling-for-Persian-Crosslingual-Training-for-Low-resource-Languages/assets/37911344/56adafef-9d0e-4b16-8dcb-7c657eacf8bb" width="600" height="400">
 
@@ -76,22 +76,22 @@ For any inquiries or collaborations, feel free to contact us.
 
 ## Data Parsing:
 
-    python data_parsing.py
+Run the following command to parse and read the dataset:
 
-Run this command to parse and read the dataset.
+    python data_parsing.py
     
 ## Training:
 
-    python training_script.py
+Execute the following command to train the model using the defined hyperparameters:
 
-Execute this command to train the model using the defined hyper-parameters.
+    python training_script.py
     
 ## Evaluation:
 
-    python using_script.py
+Use the following command to evaluate the trained model:
 
-Use this command to evaluate the trained model.
+    python using_script.py
 
 ## Hyper-parameters
 
-You can define hyper-parameters in training_script.py.
+You can define hyper-parameters in **'training_script.py'**.
