@@ -16,7 +16,10 @@ We manually translated and annotated 500 random utterances (approximately 10% of
 | MASSIVE      | Persian        | 16432         | 11514         | 2033          | 2974          | 108           | 60            |
 |              | English        | 16432         | 11514         | 2033          | 2974          | 108           | 60            |
 
-Example Translations
+## Example Translations
+
+![Uploading ATIS_new.PNG…]()
+
 
 Experimental Results
 
