@@ -20,10 +20,9 @@ We manually translated and annotated 500 random utterances (approximately 10% of
 
 ![ATIS_new](https://github.com/MobinZadkamali/Intent-Detection-and-Slot-Filling-for-Persian-Crosslingual-Training-for-Low-resource-Languages/assets/37911344/56adafef-9d0e-4b16-8dcb-7c657eacf8bb)
 
-Experimental Results
+## Experimental Results
 
 Experimental results using mBERT and XLM-RoBERTa pre-trained language models are presented below.
-mBERT Results
 
 Results using mBERT as the encoder on ATIS and MASSIVE test datasets are summarized in Table Z.
 XLM-RoBERTa Results
@@ -35,25 +34,27 @@ Insights
     The EN!PR scenario in the ATIS dataset achieves the highest F1 score (75.94), while the PR!EN scenario achieves the highest accuracy (90.64).
     In the MASSIVE dataset, the PR!EN scenario outperforms others, with F1, accuracy, and exact match metrics of 79.88, 87.79, and 69.87, respectively.
 
-Comparison with MASSIVE Dataset
+# Comparison with MASSIVE Dataset
 
-To compare the performance of our 10% Persian dataset with larger datasets, we used all 12,664 Persian samples from the MASSIVE dataset. Results for both mBERT and XLM-RoBERTa models are presented in Table M.
-Conclusion
+To compare the performance of our 10% Persian dataset with larger datasets, we used all 12,664 Persian samples from the MASSIVE dataset. Results for both mBERT and XLM-RoBERTa models are presented below:
+
+
+
+## Conclusion
 
 Our experiments demonstrate the effectiveness of cross-lingual training with pre-trained language models in improving natural language understanding tasks for low-resource languages. Further research can explore additional techniques to enhance performance in such scenarios.
 
-Note: For access to the dataset and detailed experimental results, please refer to the respective files in this repository.
+**Note:** For access to the dataset and detailed experimental results, please refer to the respective files in this repository.
 
 For any inquiries or collaborations, feel free to contact us.
 
-# Requirements
+# Usage
+## Requirements
 
     transformers >= 4.0
     PyTorch >= 0.4.0, scikit-learn, NumPy
     seqeval for model evaluation
     pytorch-crf
-
-# Usage
 
 ## Data Parsing:
 
@@ -73,6 +74,6 @@ Execute this command to train the model using the defined hyper-parameters.
 
 Use this command to evaluate the trained model.
 
-# Hyper-parameters
+## Hyper-parameters
 
 You can define hyper-parameters in training_script.py.
