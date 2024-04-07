@@ -7,7 +7,7 @@ Intent detection and slot filling are essential tasks for natural language under
 
 ## Persian ATIS Dataset
 
-We manually translated and annotated 500 random utterances (approximately 10% of the original data) from the ATIS dataset into Persian. Additionally, we translated the entire test set of the ATIS and included 69 informal translated utterances. The Persian ATIS dataset is divided into train, validation, and test sets. Statistics for these sets in compared with other avialable datasets are as follows:
+We manually translated and annotated 500 random utterances (approximately 10% of the original data) from the ATIS dataset into Persian. Additionally, we translated the entire test set of the ATIS and included 69 informal translated utterances. The Persian ATIS dataset is divided into train, validation, and test sets. Statistics for these sets in compared with other available datasets are as follows:
 
 | Dataset      | Language       | Vocab Size    | #Train        | #Valid        | #Test         | #Slot         | #Intent
 | :---:        |     :---:      |    :---:      |    :---:      |    :---:      |    :---:      |    :---:      |    :---:      |
@@ -60,7 +60,7 @@ To compare the performance of our 10% Persian dataset with larger datasets, we u
 
 ## Conclusion
 
-Our experiments demonstrate the effectiveness of cross-lingual training with pre-trained language models in improving natural language understanding tasks for low-resource languages. Further research can explore additional techniques to enhance performance in such scenarios.
+Our experiments demonstrate the effectiveness of cross-lingual training with pre-trained language models in improving natural language understanding tasks for low-resource languages. "Future research could explore additional techniques to enhance performance in such scenarios.
 
 **Note:** For access to the dataset and detailed experimental results, please refer to the respective files in this repository.
 
