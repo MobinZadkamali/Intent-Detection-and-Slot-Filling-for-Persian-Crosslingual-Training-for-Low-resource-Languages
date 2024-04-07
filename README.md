@@ -18,7 +18,7 @@ We manually translated and annotated 500 random utterances (approximately 10% of
 
 ## Example Translations
 
-![ATIS_new](https://github.com/MobinZadkamali/Intent-Detection-and-Slot-Filling-for-Persian-Crosslingual-Training-for-Low-resource-Languages/assets/37911344/56adafef-9d0e-4b16-8dcb-7c657eacf8bb)
+![ATIS_new](https://github.com/MobinZadkamali/Intent-Detection-and-Slot-Filling-for-Persian-Crosslingual-Training-for-Low-resource-Languages/assets/37911344/56adafef-9d0e-4b16-8dcb-7c657eacf8bb =250x250)
 
 ## Experimental Results
 
@@ -28,7 +28,7 @@ Experimental results with all the scenarios, using XLM-RoBERTa pre-trained langu
 
 In the ATIS dataset, the highest value of F1 was obtained in the EN!PR scenario (75.94), the highest accuracy value was achieved in the PR!EN scenario (90.64), and the highest Exact Match value was obtained in the EN+PR mode (50.1). In the MASSIVE dataset, the highest value of all three metrics was attained in the PR!EN scenario (The obtained values for F1, Accuracy, and Exact Match metrics, respectively, are equal to 79.88, 87.79, and 69.87).
 
-# Comparison with MASSIVE Dataset
+## Comparison with MASSIVE Dataset
 
 To compare the performance of our 10% Persian dataset with larger datasets, we used all 12,664 Persian samples from the MASSIVE dataset. Results for both mBERT and XLM-RoBERTa models are presented below:
 
