@@ -25,7 +25,7 @@ We manually translated and annotated 500 random utterances (approximately 10% of
 
 In the ATIS dataset, the highest value of F1 was obtained in the EN→PR scenario (75.94), the highest accuracy value was achieved in the PR→EN scenario (90.64), and the highest Exact Match value was obtained in the EN+PR mode (50.1). In the MASSIVE dataset, the highest value of all three metrics was attained in the PR→EN scenario (The obtained values for F1, Accuracy, and Exact Match metrics, respectively, are equal to 79.88, 87.79, and 69.87).
 
-Experimental results with all the scenarios, using mBERT pre-trained language model as the encoder on ATIS and MASSIVE test datasets are summarized below:
+Experimental results with all the scenarios, using mBERT pre-trained language model as the encoder on ATIS and MASSIVE test datasets are summarized:
  
 |Strategy | ATIS                                         ||| MASSIVE                                     |||                 
 | :---:   |     :---:      |    :---:      |    :---:      |    :---:      |    :---:      |    :---:      | 
@@ -36,7 +36,7 @@ Experimental results with all the scenarios, using mBERT pre-trained language mo
 |EN→PR    |74.58           |90.22          |48.44          |79.01          |86.68          |68.72          |
 |EN+PR    |**75.59**       |90.22          |**50.1**       |79.61          |87.62          |69.36          |
 
-Experimental results with all the scenarios, using XLM-RoBERTa pre-trained language are presented below:
+Experimental results with all the scenarios, using XLM-RoBERTa pre-trained language are displayed:
 
 |Strategy | ATIS                                         ||| MASSIVE                                     |||                 
 | :---:   |     :---:      |    :---:      |    :---:      |    :---:      |    :---:      |    :---:      | 
@@ -49,7 +49,7 @@ Experimental results with all the scenarios, using XLM-RoBERTa pre-trained langu
 
 ## Comparison with MASSIVE Dataset
 
-To compare the performance of our 10% Persian dataset with larger datasets, we used all 12,664 Persian samples from the MASSIVE dataset. Results for both mBERT and XLM-RoBERTa models are presented below:
+To compare the performance of our 10% Persian dataset with larger datasets, we used all 12,664 Persian samples from the MASSIVE dataset. Results for both mBERT and XLM-RoBERTa models are shown:
 
 |Strategy |       mBERT                                  |||              XLM-RoBERTa                    |||                 
 | :---:   |     :---:      |    :---:      |    :---:      |    :---:      |    :---:      |    :---:      | 
