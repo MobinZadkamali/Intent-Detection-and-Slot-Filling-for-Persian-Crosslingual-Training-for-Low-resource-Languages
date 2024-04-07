@@ -1,4 +1,4 @@
-# Intent-Detection-and-Slot-Filling-for-Persian-Crosslingual-Training-for-Low-resource-Languages
+# Intent Detection and Slot-Filling for Persian Crosslingual Training for Low-resource Languages
 PyTorch implementation for experiments in the paper: Intent Detection and Slot Filling for Persian Crosslingual Training for Low-resource Languages
 
 # Requirements
