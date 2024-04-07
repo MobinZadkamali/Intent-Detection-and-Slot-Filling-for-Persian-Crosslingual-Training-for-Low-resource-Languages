@@ -1,13 +1,13 @@
 # Intent Detection and Slot-Filling for Persian Cross-lingual Training for Low-resource Languages
-This repository contains the code and resources for the paper titled "Intent Detection and Slot-Filling for Persian Crosslingual Training for Low-resource Languages." In this paper, we address the challenges of natural language understanding in low-resource languages by employing pre-trained language models in cross-lingual scenarios.
+This repository contains the code and resources for the paper titled **"Intent Detection and Slot-Filling for Persian Crosslingual Training for Low-resource Languages."** In this paper, we address the challenges of natural language understanding in low-resource languages by employing pre-trained language models in cross-lingual scenarios.
 
 ## Abstract
 
-Intent detection and slot filling are essential tasks for natural language understanding. Deep neural models have shown remarkable performance in these tasks but require large amounts of training data, which is often unavailable in low-resource languages. In this paper, we leverage pre-trained language models, specifically Multilingual BERT (mBERT) and XLM-RoBERTa, in various cross-lingual and monolingual scenarios. We translate a portion of the ATIS dataset into Persian to evaluate our proposed models and repeat experiments on the MASSIVE dataset for robustness. Results indicate significant improvements in cross-lingual scenarios over monolingual ones.
+Intent detection and slot filling are essential tasks for natural language understanding. Deep neural models have shown remarkable performance in these tasks but require large amounts of training data, which is often unavailable in low-resource languages. In this study, we leverage pre-trained language models, specifically Multilingual BERT (mBERT) and XLM-RoBERTa, in various cross-lingual and monolingual scenarios. We translate a portion of the ATIS dataset into Persian to evaluate our proposed models and repeat experiments on the MASSIVE dataset to increase our results’ reliability. Results indicate significant improvements in cross-lingual scenarios over monolingual ones.
 
-## Dataset
+## Persian ATIS Dataset
 
-We manually translated and annotated 500 random utterances (approximately 10% of the original data) from the ATIS dataset into Persian. Additionally, we translated the entire test set of the ATIS and included 69 informal translated utterances. The Persian ATIS dataset is divided into train, validation, and test sets. Statistics for these sets are as follows:
+We manually translated and annotated 500 random utterances (approximately 10% of the original data) from the ATIS dataset into Persian. Additionally, we translated the entire test set of the ATIS and included 69 informal translated utterances. The Persian ATIS dataset is divided into train, validation, and test sets. Statistics for these sets in compared with other avialable datasets are as follows:
 
 | Dataset      | Language       | Vocab Size    | #Train        | #Valid        | #Test         | #Slot         | #Intent
 | :---:        |     :---:      |    :---:      |    :---:      |    :---:      |    :---:      |    :---:      |    :---:      |
@@ -22,23 +22,15 @@ We manually translated and annotated 500 random utterances (approximately 10% of
 
 ## Experimental Results
 
-Experimental results using mBERT and XLM-RoBERTa pre-trained language models are presented below.
+Experimental results with all the scenarios, using mBERT pre-trained language model as the encoder on ATIS and MASSIVE test datasets are summarized below:
 
-Results using mBERT as the encoder on ATIS and MASSIVE test datasets are summarized in Table Z.
-XLM-RoBERTa Results
+Experimental results with all the scenarios, using XLM-RoBERTa pre-trained language are presented below:
 
-Results using XLM-RoBERTa as the encoder on ATIS and MASSIVE test datasets are summarized in Table N.
-Insights
-
-    mBERT yields superior performance across both datasets.
-    The EN!PR scenario in the ATIS dataset achieves the highest F1 score (75.94), while the PR!EN scenario achieves the highest accuracy (90.64).
-    In the MASSIVE dataset, the PR!EN scenario outperforms others, with F1, accuracy, and exact match metrics of 79.88, 87.79, and 69.87, respectively.
+In the ATIS dataset, the highest value of F1 was obtained in the EN!PR scenario (75.94), the highest accuracy value was achieved in the PR!EN scenario (90.64), and the highest Exact Match value was obtained in the EN+PR mode (50.1). In the MASSIVE dataset, the highest value of all three metrics was attained in the PR!EN scenario (The obtained values for F1, Accuracy, and Exact Match metrics, respectively, are equal to 79.88, 87.79, and 69.87).
 
 # Comparison with MASSIVE Dataset
 
 To compare the performance of our 10% Persian dataset with larger datasets, we used all 12,664 Persian samples from the MASSIVE dataset. Results for both mBERT and XLM-RoBERTa models are presented below:
-
-
 
 ## Conclusion
 
