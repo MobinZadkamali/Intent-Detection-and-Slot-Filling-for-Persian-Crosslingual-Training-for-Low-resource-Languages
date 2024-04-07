@@ -26,7 +26,7 @@ In the ATIS dataset, the highest value of F1 was obtained in the EN→PR scenari
 
 Experimental results with all the scenarios, using mBERT pre-trained language model as the encoder on ATIS and MASSIVE test datasets are summarized below:
 
-|Strategy |<th colspan="3">ATIS</th>                       | <th colspan="3">MASSIVE</th>                  |
+|Strategy |<th colspan="3">ATIS</th>                       | <th colspan="3">MASSIVE</th>                  
 | :---:   |     :---:      |    :---:      |    :---:      |    :---:      |    :---:      |    :---:      | 
 |         |F1              |Accuracy       |Exact Match    | F1            |Accuracy       |Exact Match    |
 |EN       |50.96           |86.48          |17.25          |79.68          |87.35          |69.43          |
