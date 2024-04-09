@@ -96,3 +96,18 @@ Use the following command to evaluate the trained model:
 ## Hyper-parameters
 
 You can define hyper-parameters in **'training_script.py'**.
+
+## How to Cite
+If you find our work useful, please also cite the paper:
+```
+R. Zadkamali, S. Momtazi, and H. Zeinali, “Intent Detection and Slot Filling for Persian: Cross-lingual training for low-resource languages,” Natural Language Engineering, pp. *–**, ****. doi:
+
+@article{Beken Fikri_Oflazer_Yanıkoğlu_2023,
+       title={Intent Detection and Slot Filling for Persian: Cross-lingual training for low-resource languages},
+       DOI={},
+       journal={Natural Language Engineering},
+       author={Zadkamali, Reza and Momtazi, Saeedeh and Zeinali, Hossein},
+       year={},
+       pages={}
+}
+```
