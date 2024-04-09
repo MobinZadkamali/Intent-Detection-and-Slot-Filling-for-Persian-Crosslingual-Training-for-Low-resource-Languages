@@ -101,8 +101,9 @@ You can define hyper-parameters in **'training_script.py'**.
 If you find our work useful, please also cite the paper:
 ```
 R. Zadkamali, S. Momtazi, and H. Zeinali, “Intent Detection and Slot Filling for Persian: Cross-lingual training for low-resource languages,” Natural Language Engineering, pp. *–**, ****. doi:
-
-@article{Beken Fikri_Oflazer_Yanıkoğlu_2023,
+```
+```
+@article{,
        title={Intent Detection and Slot Filling for Persian: Cross-lingual training for low-resource languages},
        DOI={},
        journal={Natural Language Engineering},
