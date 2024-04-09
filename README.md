@@ -100,7 +100,7 @@ You can define hyper-parameters in **'training_script.py'**.
 ## How to Cite
 If you find our work useful, please also cite the paper:
 ```
-R. Zadkamali, S. Momtazi, and H. Zeinali, “Intent Detection and Slot Filling for Persian: Cross-lingual training for low-resource languages,” Natural Language Processing, pp. *–**, 2024. 
+R. Zadkamali, S. Momtazi, and H. Zeinali, “Intent Detection and Slot Filling for Persian: Cross-lingual training for low-resource languages,” Natural Language Processing, 2024. 
 ```
 ```
 @article{,
