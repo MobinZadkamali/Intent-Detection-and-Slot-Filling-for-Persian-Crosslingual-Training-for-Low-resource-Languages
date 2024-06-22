@@ -95,11 +95,6 @@ if __name__ == '__main__':
     bs = 128
     # learning rate
     lr = 5e-5
-    # cut at a threshold if you want otherwise remove it
-    # thresh = 100
-    # Data["tr_inputs"], Data["tr_tags"] = cut_at(Data["tr_inputs"], Data["tr_tags"], 100)
-    # Data["val_inputs"], Data["val_tags"] = cut_at(Data["val_inputs"], Data["val_tags"], 100)
-    # Data["test_inputs"], Data["test_tags"] = cut_at(Data["test_inputs"], Data["test_tags"], 100)
 
     xlmr_model = 'xlm-roberta-base'
     bert_model = 'bert-base-uncased'
@@ -145,12 +140,6 @@ if __name__ == '__main__':
     # config.hidden_size = 100
     config.max_len = max_len
 
-    """
-    choose you model class: 
-    if using mBERT or ParsBERT use BertForTokenClassification, BertCRF or BertLSTMCRF
-    if using XLM-R use RobertaForTokenClassification, RobertaCRF or RobertaLSTMCRF
-    """
-
     model_class = BertIDSF
 
     # set to true if final layer is crf
@@ -188,10 +177,6 @@ if __name__ == '__main__':
 
     count_parameters(model)
 
-    """
-    for precision recall NER_validation otherwise use POS_validation for  accuracy
-    """
-    # val_fun = NER_validation
     val_fun = joint_IDSF_validation
 
     tagger_trainer.run_transformer_trainer(Data, batch_size=bs, FULL_FINETUNING=FULL_FINETUNING, model=model,
